@@ -4,7 +4,7 @@ import streamlit as st
 # Cargar datos con caché
 @st.cache_data
 def load_data(nrows):
-    data = pd.read_csv('C:/Users/User/Downloads/1715722281738-dataset.csv', nrows=nrows)
+    data = pd.read_csv('1715722281738-dataset.csv', nrows=nrows)
     return data
 
 # Título de la aplicación
